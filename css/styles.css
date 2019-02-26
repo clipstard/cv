@@ -1,0 +1,135 @@
+.float-right {
+    text-align: inherit;
+    vertical-align: text-bottom;
+}
+.header-section {
+    height: 140px;
+}
+
+.inherit-all {
+    height: inherit;
+}
+
+.align-self {
+    display: flex;
+}
+
+.align-self span {
+   margin-top: 45px;
+}
+
+.light-blue {
+    color: deepskyblue;
+}
+
+.dark-blue {
+    color: royalblue;
+}
+
+body {
+    background-color: gray;
+}
+
+.container {
+    background-color: white;
+    box-shadow: 0 0 6px 6px #343a40;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    max-width: 980px;
+}
+
+.col-md-3 {
+    text-align: right;
+}
+
+.col-md-9 {
+    text-align: left;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+tr th {
+    font-size: 18px;
+    font-family: Georgia;
+}
+tr td {
+    padding: 0 5px;
+}
+tr :first-child{
+    text-align:center;
+}
+
+.special:after {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    display: inline-block;
+    color: royalblue;
+    background-color: royalblue;
+    content: " ";
+    right: 10px;
+    margin-top: -20.5px;
+}
+
+.special {
+    width: auto;
+    height: 0;
+    border-top: 1.5px solid royalblue;
+}
+
+.full-width  td {
+    width: 20%;
+}
+
+.last-cell {
+    border: none !important;
+    border-bottom: 1px solid gray !important;
+}
+
+.full-width tr td {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.full-width tr th {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+
+ li:before {
+    content: '-';
+}
+
+ ul {
+     font-size: 12px;
+     font-weight: 400;
+ }
+
+.margin {
+     margin-bottom: 10px;
+ }
+
+.full-width {
+    width: 100%;
+    text-align: center;
+}
+
+.hidden {
+    visibility: hidden;
+    height: 0 !important;
+    margin-bottom: -20px;
+}
+
+.underscored {
+    text-decoration: underline;
+}
+
+.font-weight-large {
+    font-weight: 500;
+}
+
